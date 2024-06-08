@@ -12,7 +12,7 @@ A Firefox add-on that adds a button to the YouTube GUI, which redirects YouTube 
 
 - **Audio-Only Mode**: Functionally can be used as a **YouTube audio only player**. You can use the Audio Only feature Materialious provides, say you are listening to something on YouTube that you don't need video for. You can listen to podcasts on YouTube while playing a high demand video game and not feel the effects of a video player hogging your resources!
 - **Simple**: One simple JS button in the bottomn right corner is all there is to this add-on. 
-- **Lightweight**: All of the functional code is in the content.js file. Could be used as a ViolentMonkey script if you wanted to. 
+- **Lightweight**: All of the functional code is in the content.js file. Could be used as a ViolentMonkey script if you wanted to. Only 2.37 KBs!
 
 ## Installation
 
