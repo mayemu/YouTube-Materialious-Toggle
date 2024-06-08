@@ -5,7 +5,7 @@
     <img src="https://mayflower.s-ul.eu/GpoETBUQ" alt="Extension Icon" />
   </a>
 </p>
-A Firefox add-on that adds a button to the YouTube GUI, which redirects YouTube videos to Materialious (an Invidious fork) when activated. This add-on is useful for those who prefer the tools/privacy Invidious provides, but enjoy a sleek material GUI and YouTube's recommendation algorithm. This add-on uses the official Materialious instance, [app.materialio.us](app.materialio.us), as the redirect destination. 
+A Firefox add-on that adds a button to the YouTube GUI, which redirects YouTube videos to Materialious (an Invidious fork) when activated. This add-on is useful for those who prefer the tools/privacy Invidious provides, but enjoy a sleek material GUI and YouTube's recommendation algorithm. This add-on uses the official Materialious instance, app.materialio.us, as the redirect destination. 
 
 ## Features
 
