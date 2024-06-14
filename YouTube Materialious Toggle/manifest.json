@@ -1,14 +1,24 @@
 {
     "manifest_version": 2,
-    "name": "YouTube Materialious Toggle",
-    "version": "1.0",
-    "description": "Adds a button to redirect YouTube videos to Materialious (an Invidious fork).",
-    "permissions": ["activeTab"],
+    "name": "YouTube Instance Redirect",
+    "version": "1.7",
+    "description": "Adds a button to redirect the current YouTube video to a chosen instance or back to YouTube.",
+    "permissions": [
+        "storage",
+        "*://*/*"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png"
+        }
+    },
     "content_scripts": [
         {
-            "matches": ["*://www.youtube.com/*"],
-            "js": ["content.js"],
-            "run_at": "document_idle"
+            "matches": ["*://*/*"],
+            "js": ["content.js"]
         }
     ]
 }
